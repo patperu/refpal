@@ -2,9 +2,9 @@
 #
 #' @export
 
-get_data <- function() {
-
-  x <- read_xml("http://referendum2016.comune.palermo.it/AFFLSEZ_1_82053_R1.xml") %>%
+get_data <- function(url) {
+  # url <- "http://referendum2016.comune.palermo.it/AFFLSEZ_1_82053_R1.xml"
+  x <- read_xml(url) %>%
     xml_nodes('SV') %>%
     html_attrs()
 

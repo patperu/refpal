@@ -1,0 +1,14 @@
+Package: refpal
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person("Patrick", "Hausmann", role = c("aut", "cre"), email = "patrick.hausmann@covimo.de")
+    )
+Description: More about what it does (maybe more than one line)
+License: MIT
+LazyData: TRUE
+Depends:
+    rvest,
+    magrittr
+RoxygenNote: 5.0.1

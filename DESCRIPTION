@@ -1,7 +1,7 @@
 Package: refpal
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0.9006
+Version: 0.1.0.9007
 Authors@R: c(
     person("Patrick", "Hausmann", role = c("aut", "cre"), email = "patrick.hausmann@covimo.de")
     )

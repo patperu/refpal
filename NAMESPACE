@@ -3,4 +3,4 @@
 export(get_data)
 import(magrittr)
 import(rvest)
-importFrom(xml2,read_xml)
+import(xml2)

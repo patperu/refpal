@@ -5,7 +5,7 @@
 #' @name refpal-package
 #' @docType package
 #' @author Patrick Hausmann \email{patrick.hausmann@@covimo.de}
-#' @import xml2
+#' @importFrom xml2 read_xml
 #' @import rvest
 #' @import magrittr
 NULL

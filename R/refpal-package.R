@@ -8,4 +8,6 @@
 #' @import xml2
 #' @import rvest
 #' @import magrittr
+#' @import stringr
+#' @import reshape2
 NULL

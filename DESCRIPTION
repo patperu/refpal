@@ -1,7 +1,7 @@
 Package: refpal
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0.9004
+Version: 0.1.0.9005
 Authors@R: c(
     person("Patrick", "Hausmann", role = c("aut", "cre"), email = "patrick.hausmann@covimo.de")
     )
@@ -11,5 +11,7 @@ LazyData: TRUE
 Imports:
     xml2,
     rvest,
-    magrittr
+    magrittr,
+    stringr,
+    reshape2
 RoxygenNote: 5.0.1

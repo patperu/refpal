@@ -4,9 +4,10 @@
 #
 #' @export
 
-get_arpa <- function() {
+get_arpa <- function(url) {
   # http://88.53.168.210/Bollettino2/MAria_report.xls
-  x <- read.csv("http://blog.spaziogis.it/static/ods/data/mariareport/MAria_report.csv", stringsAsFactors = FALSE)
+  # "http://blog.spaziogis.it/static/ods/data/mariareport/MAria_report.csv"
+  x <- read.csv(url, stringsAsFactors = FALSE)
 
   colnames(x) <- c("date", unlist(lapply(colnames(x), split_names)))
 

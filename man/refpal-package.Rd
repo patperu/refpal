@@ -2,12 +2,14 @@
 % Please edit documentation in R/refpal-package.R
 \docType{package}
 \name{refpal-package}
+\alias{refpal}
 \alias{refpal-package}
 \title{Referendum Palermo}
 \description{
 Referendum Palermo
 }
 \author{
-Patrick Hausmann \email{patrick.hausmann@covimo.de}
+Patrick Hausmann
 }
+\keyword{package}
 

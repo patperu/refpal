@@ -1,13 +1,9 @@
-#' @title Referendum Palermo
+#' Referendum Palermo
 #'
-#' @description Referendum Palermo
-#'
+#' @import lazyeval magrittr reshape2 rvest stringr xml2
 #' @name refpal-package
+#' @aliases refpal
 #' @docType package
-#' @author Patrick Hausmann \email{patrick.hausmann@@covimo.de}
-#' @import xml2
-#' @import rvest
-#' @import magrittr
-#' @import stringr
-#' @import reshape2
+#' @keywords package
+#' @author Patrick Hausmann
 NULL

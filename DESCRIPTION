@@ -1,17 +1,17 @@
 Package: refpal
-Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0.9007
-Authors@R: c(
-    person("Patrick", "Hausmann", role = c("aut", "cre"), email = "patrick.hausmann@covimo.de")
-    )
+Type: Package
 Description: More about what it does (maybe more than one line)
-License: MIT
+Version: 0.1.0.9008
+Authors@R: person("Patrick", "Hausmann", role = c("aut", "cre"), email =
+    "patrick.hausmann@covimo.de")
+License: MIT + file LICENSE
 LazyData: TRUE
 Imports:
-    xml2,
-    rvest,
+    lazyeval,
     magrittr,
+    reshape2,
+    rvest,
     stringr,
-    reshape2
+    xml2
 RoxygenNote: 5.0.1
